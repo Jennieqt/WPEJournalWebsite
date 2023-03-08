@@ -1,0 +1,76 @@
+*
+body{
+    background-image: url(./background.jpg);
+}
+#hover::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s
+}
+#hover:hover::after{
+    width: 100%;
+}
+pre::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: aqua;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+pre:hover::after{
+    width: 100%;
+}
+pre,a{
+    color: burlywood;
+    text-decoration: none;
+    font-size: 20px;
+}
+#div1{
+    float: right;
+    position: relative;
+    right: 250px;
+}
+#div2{
+    float: left;
+    position: relative;
+    left: 250px;
+}
+pre{
+    color: burlywood;
+    text-decoration: none;
+    font-size: 10px;
+}
+#div3{
+    float: right;
+    position: relative;
+    right: 70px;
+}
+#div4{
+    float: left;
+    position: relative;
+    left: 70px;
+}
+#div5{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 52px;
+    margin: 0 auto;
+}   
+#div6{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    right: 52px;
+    margin: 0 auto;
+}   
+p
+{
+    font-size: 16px;
+}
